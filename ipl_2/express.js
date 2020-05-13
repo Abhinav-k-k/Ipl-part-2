@@ -8,4 +8,4 @@ app.get("/economy", function(req, res){
     res.send(path.economicalBowlers[year])
 })
 
-app.listen(port, () => console.log('Example app listening at http://localhost:3000'))
+app.listen(port, () => console.log('listening at http://localhost:3000'))
